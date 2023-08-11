@@ -24,7 +24,6 @@ export const InputCheckbox: InputCheckboxComponent = ({
           checked={checked}
           disabled={disabled}
           onChange={() => {
-            console.log("yes?");
             onChange(!checked);
           }}
         />
